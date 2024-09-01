@@ -1,21 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cafe Para Ti</title>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean's Bliss Coffee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            display: inline-block;
+        }
+        section {
+            padding: 2em;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bean's Bliss Coffee</h1>
         <nav>
-            <div class="nav-container">
-                <div class="logo">
-                </div>
-                <div class="links">
-                    <div class="link"><a href="">Menu</a></div>
-                    <div class="link"><a href="">Gallery</a></div>
-                    <div class="link"><a href="">Reservation</a></div>
-                </div>
-            </div>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
         </nav>
-    </body>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Bean's Bliss Coffee</h2>
+        <p>At Bean's Bliss, we believe in the magic of a perfectly brewed cup of coffee. Come visit us and experience the warmth and charm of our cozy coffee shop.</p>
+        <img src="coffee-shop.jpg" alt="Coffee Shop" style="width:100%; max-height:400px; object-fit:cover;">
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li><strong>Espresso:</strong> A rich, full-flavored coffee.</li>
+            <li><strong>Latte:</strong> Smooth and creamy with a touch of milk.</li>
+            <li><strong>Cappuccino:</strong> A classic with frothy milk and espresso.</li>
+            <li><strong>Mocha:</strong> Chocolatey and indulgent.</li>
+            <li><strong>Pastries:</strong> Freshly baked daily, including croissants and muffins.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: 123 Coffee Lane, Brewtown, CA 90001</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Email: <a href="mailto:info@beansbliss.com">info@beansbliss.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bean's Bliss Coffee. All rights reserved.</p>
+    </footer>
+</body>
 </html>
